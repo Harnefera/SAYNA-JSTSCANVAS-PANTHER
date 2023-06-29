@@ -1,0 +1,85 @@
+/* Styles pour le Hero page */
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-container {
+    position: absolute;
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    top: 34%;
+    left: 10%;
+}
+
+.hero h2 {
+    font-size: clamp(20px, 4.2vw, 44px);
+    margin: 0;
+    word-spacing: .2em;
+}
+
+.hero h1 {
+    font-size: clamp(14px, 2.8vw, 30px);
+    font-family: 'wakandaForever';
+    margin: 0;
+    word-spacing: .5em;
+    letter-spacing: .1em;
+}
+
+.hero p {
+    margin-top: 4vh;
+    margin-right: 13vw;
+    font-size: 10px;
+}
+
+/* Styles pour le Premier page d'articles */
+.tetepanther {
+    width: 80%;
+    min-width: 70%;
+    position: absolute;
+    z-index: -1;
+    background-blend-mode: hue;
+    filter: hue-rotate(300deg) saturate(1.5) brightness(0.3);
+    -webkit-filter: hue-rotate(300deg) saturate(1.5) brightness(0.3);
+}
+
+.premier {
+    display: flex;
+    padding: 0 9%;
+    justify-content: center;
+    gap: 8%;
+}
+
+.premierright, .premierleft {
+    padding: 7% 0;
+}
+
+.premierright img{ 
+    width: 40vw;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 3vh;
+}
+
+.youtube img {
+    width: 80%;
+    max-width: 120px;
+    min-width: 80px;
+}
+
+.youtube img:hover {
+    scale: 1.1;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;
+}

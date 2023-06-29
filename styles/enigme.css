@@ -1,0 +1,196 @@
+.hero {
+    position: relative;
+    display: flex;
+    height: 56vh;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero-container {
+    flex-basis: 60%;
+    margin: 0;
+    transform: translateX(-4vw);
+    -webkit-transform: translateX(-4vw);
+    -moz-transform: translateX(-4vw);
+    -ms-transform: translateX(-4vw);
+    -o-transform: translateX(-4vw);
+}
+
+.cadrecita {
+    position: absolute;
+    width: 105%;
+}
+.hero-image1 {
+    max-width: 58%;
+    height: auto;
+    float: left;
+}
+
+h1, h2 {
+    font-family: 'BEYNO';
+    font-size: clamp(16px, 3.5vw, 45px);
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    letter-spacing: 3.6px;
+    padding-top: 10vh;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: clamp(8px, 1vw, 10px); 
+}
+
+.hero-title {
+    padding: 2vw;
+    margin-top: 10px;
+}
+.hero-text {
+    z-index: 888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 2vh;
+    height: 30vh;
+    width: 40vw;
+}
+
+.hero-text p {
+    gap: 20vh;
+    width: 24vw;
+    margin-left: 2vw;
+}
+
+.question {
+    width: 30vw;
+    padding-left: 10vw;
+    padding-top: 20vh;
+}
+
+.question h2{
+    font-size: clamp(14px, 2.5vw, 20px); 
+    text-decoration: underline;
+    padding-bottom: 1vh;
+}
+
+.questio {
+    font-family: 'wakandaForever';
+    font-weight: normal;
+    font-size: clamp(14px, 2.5vw, 20px); 
+    word-spacing: 0.5em;
+    letter-spacing: 0.3em;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.hero-text p {
+    padding-left: 5vw;
+} 
+
+.rightcase h3, .rightcase p {
+    padding-left: 7vw;
+    padding-right: 6vw;
+}
+
+.rightcase h3 {
+    font-size: clamp(10px, 1.4vw, 12px); 
+    color: #fff;
+    font-weight: normal;
+}
+
+h3 em {
+    font-family: 'wakandaForever';
+    font-size: clamp(12px, 1.6vw, 16px); 
+}
+
+label {
+    font-family: 'Cantarell-regular';
+    font-size: clamp(9px, 1.1vw, 12px); 
+}
+
+#morse {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 10%;
+}
+
+#leftcase {
+    width: 40vw;
+    padding-left: 8vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.rightcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 30vh;
+    width: 40vw;
+    padding-top: 1.5vh;
+}
+
+.rightcase img {
+    width: 40vw;
+    position: absolute;
+    transform: scale(-1, 1);
+}
+
+input[type="text"] {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #F2CEF2;
+    background: none;
+    border: #9E91B7 1.5px solid;
+    padding-left: 5%;
+    margin-top: 1vh;
+    height: 4vh;
+    min-height: 20px;
+}
+
+    #envoyer {
+    font-size: clamp(9px, 1.1vw, 11px); 
+    font-style: 'Cantarell-regular';
+    font-size: 10px;
+    margin-top: 4vh;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: #F2CEF2;
+    border: none;
+    color: #021740;
+    width: 10vw;
+    height: 4vh;
+    align-self: center;
+    min-width: 60px;
+    min-height: 20px;
+    text-transform: uppercase;
+}
+
+/* Cacher toutes les pages par défaut */
+#enygme2, #enygme3 {
+	display: none;
+	position: relative;
+	}

@@ -1,0 +1,294 @@
+
+.hero {
+    position: relative;
+    display: flex;
+    height: 56vh;
+}
+
+.hero-container {
+    flex-direction: column;
+    width: 40%;
+    float: left;
+    padding: 9%;
+    margin: 0% 42% 0% 2%;
+}
+
+.hero-image {
+    position: absolute;
+    width: 60%;
+    min-width: 400px;
+    height: auto;
+    left: 39vw;
+}
+
+.hero h1 {
+    margin-bottom: 0;
+}
+
+.hero h2 {
+    margin-top: 0;
+}
+
+.album1, .album2, .album3{
+
+    position: relative;
+    display: flex;
+}
+
+.album1 {
+    scale: 1.2;
+    padding-right: 2%;
+    padding-left: 4%;
+}
+
+.album img{
+    width: auto;
+    height: 100%;
+}
+
+.album h3 {
+    margin-bottom: 0;
+}
+
+.album p {
+    margin: 0;
+}
+
+.album {
+    background-color: #021740;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 7%;
+    width: 93%;
+    height: clamp(120px, 26vh, 220px);
+    gap: 2%;
+    margin-bottom: 15vh;
+}
+
+.album-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style pour le side Droite */
+.side p {
+    font-size: clamp(8px, 1.1vw, 12px); 
+}
+
+.side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    float: right;
+    margin-right: 4%;
+}
+
+.side-info {
+    background-color: #ffffffe0;
+    color: #021740;
+    width: 30vw;
+    height: 68vh;
+    border: #ffffffe0 1px outset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 55%;
+}
+
+.side-content {
+    position: relative;
+    margin: 11%;
+    padding-top: 50%;
+}
+
+.tete {
+    position: absolute;
+    width: 25vw;
+    top: 0;
+}
+.side h3 {
+    font-family: 'Cantarell-regular';
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.side ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side li {
+    font-size: clamp(8px, 1.1vw, 12px); 
+    color: #F2CEF2;
+    padding: 4px 12px;
+    background-color: #3d2da6;
+    border: #3d2da6 solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+p em {
+    font-weight: bold;
+}
+
+.side-log {
+    max-width: 400px;
+    min-width: 128px;
+    margin-top: 10vh;
+}
+
+/* Styles pour les article gauche */
+#articles {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+    position: relative;
+    float: left;
+    left: 10vw;
+}
+
+/* Styles pour les formulaires */
+.formulaire img {
+    width: 100%;
+    position: relative;
+}
+
+form {
+    margin: 0 30%;
+    display: flex;
+    gap: 3%;
+    font-family: 'Cantarell-regular';  
+}
+
+.formulaire {
+    display: inline-flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+}
+
+.contacter {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    margin-bottom: 10%;
+    width: 52vw;
+    height: 32vw;
+    border: solid 0px ;
+    border-radius: 130px;
+    -ms-border-radius: 130px;
+    -o-border-radius: 130px;
+    -webkit-border-radius: 130px;
+    -moz-border-radius: 130px;
+    background-image: linear-gradient(white ,white , rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+form p {
+    margin-bottom: 0;
+    font-size: clamp(8px, 1.1vw, 12px); 
+}
+
+form h3 {
+    margin: 0;
+    color: #021740;
+    font-size: clamp(16px, 2.8vw, 29px); 
+    font-family: 'Cantarell-regular';  
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.2vw;
+}
+
+form, form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    color: #021740;
+}
+
+form input, textarea {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: none;
+    border: #021740 1px solid;
+    padding-left: 5%;
+} 
+
+input[type="email"], input[type="text"]  {
+    font-size: clamp(8px, 1.1vw, 12px); 
+    width: 24vw;
+    height: 3vh;
+    min-height: 18px;
+}
+
+textarea {
+    font-size: clamp(8px, 1.1vw, 12px); 
+    resize: none;
+    width: 24vw;
+    height: 9vw;
+    max-height: 120px;
+    min-height: 50px;
+}
+
+input[type="submit"] {
+    font-style: 'Cantarell-regular';
+    font-size: clamp(7px, 1vw, 10px); 
+    margin-top: 1vh;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: #F2CEF2;
+    border: none;
+    color: #021740;
+    width: 8vw;
+    height: 4vh;
+    align-self: center;
+    min-width: 60px;
+    min-height: 20px;
+    text-transform: uppercase;
+}
+
+/* styles pour les écrans de taille moyenne */
+@media (max-width: 1024px) {
+    .album {
+    height: clamp(120px, 24vw, 180px);
+    }}
+    
+/* styles pour les petits écrans */
+@media (max-width: 640px) {
+    .img-container {
+    width: 100%;
+    }
+    
+    .content {
+    padding: 20px;
+    }
+    }
